@@ -12,6 +12,6 @@ spec:
     spec:
       containers:
       - name: demo-java-docker
-        image: registry.gitlab.com/mmartinezpublic/demo-java-docker-gitops
+        image: registry.gitlab.com/mmartinezpublic/demo-java-docker-gitops:230ef4fe840cb3cbf3c7b0b8365a9fb580c4f4e2
         ports:
         - containerPort: 8080
