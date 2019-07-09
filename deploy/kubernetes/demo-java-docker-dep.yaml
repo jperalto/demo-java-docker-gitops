@@ -1,0 +1,17 @@
+---
+apiVersion: apps/v1beta1 # for versions before 1.6.0 use extensions/v1beta1
+kind: Deployment
+metadata:
+  name: demo-java-docker
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: demo-java-docker
+    spec:
+      containers:
+      - name: demo-java-docker
+        image: registry.gitlab.com/mmartinezpublic/demo-java-docker-gitops
+        ports:
+- containerPort: 3000
