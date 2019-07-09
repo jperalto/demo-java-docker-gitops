@@ -14,4 +14,4 @@ spec:
       - name: demo-java-docker
         image: registry.gitlab.com/mmartinezpublic/demo-java-docker-gitops
         ports:
-- containerPort: 3000
+        - containerPort: 3000
