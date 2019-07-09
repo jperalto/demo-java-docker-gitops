@@ -12,7 +12,6 @@
     <packaging>jar</packaging>
     <!-- USE ON SONAR AS NAME -->
     <name>demo-java-docker</name>
-
     <description>Getting started with Spring Boot and Docker</description>
 
     <parent>
