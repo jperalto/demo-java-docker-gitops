@@ -12,7 +12,7 @@ public class Application {
     @RequestMapping("/")
     public String home() {
         return "<html><boby>"
-        		+ "<h2>Hello, World! from BIMODAL DEVOPS</h2><br /><br /><br />"      
+        		+ "<h2>Hello, World! from GC DEVOPS</h2><br /><br /><br />"      
         		+ "<img src=\"/hello.png\">"  		
         		+ "</boby></html>";
     }
